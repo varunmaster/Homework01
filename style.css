@@ -30,7 +30,7 @@ header {
     padding: 90px;
     width: 29%;
     background-color: lightgray;
-    margin-left: 7%;
+    margin-left: 10%;
     margin-right: 15px; /*This is so the aside can be next to it with spacing*/
     float: left; /*This is for putting aside next to this section*/
     text-align: center;
