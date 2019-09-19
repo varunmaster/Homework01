@@ -1,17 +1,15 @@
 p {
     font-family: 'Georgia', Times, "Times New Roman", serif;
     color: #777777;
+    width: 95%;
 }
 
-#other-font {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-#backGround{
-    margin: 30px;
+body {
+    margin: 0 auto;
     background-image: url(../images/ripples.png);
     background-color: #ffffff;
     border-color: #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #name{
@@ -28,6 +26,7 @@ p {
     width: 15%;
     float: left;
     text-align: center;
+    margin-top: 10px;
 }
 
 #other-pages {
@@ -62,6 +61,11 @@ p {
     color: #4aaaa5;
 }
 
+hr {
+    width: 95%;
+
+}
+
 #bio-image {
     width: 225px;
     height: 300px;
@@ -86,12 +90,20 @@ li{
     float: left;
 }
 
-footer{
+.clearfix {
+    clear: both;
+}
+
+#lineAtBottom {
+    padding: 5px;
+    background-color: #4aaaa5;
+
+}
+
+#foot {
+    text-align: center;
     clear: both;
     background-color: #666666;
     color: white;
-    height: 30px;
-    width: 960px;
-    margin-left: 25%; /*This value matches #name{margin-left: 25%;}*/
-    margin-top: 44%;
+    height: 70px;
 }
