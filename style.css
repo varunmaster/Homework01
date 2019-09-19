@@ -8,44 +8,32 @@ body {
 }
 
 header {
-    /* width: 80%; */
-    /* height: 75%; */
-    text-align: center;
-    /* margin-left: 7%; */
+    text-align: center;   
     padding: 10px 30px;
     background-color: lightgray;
     margin-top: 10px;
 }
 
 nav {
-    /* width: 80%; */
-    /* height: 75%; */
     text-align: center;
     margin-top: 10px;
-    /* margin-left: 7%; */
     padding: 10px 30px;
     background-color: lightgray;
 }
 
-article {
-    background-color: #777;
-    /* color: lightgray; */
-    /* width: 119%; */
-    /* height: 105%; */
-    padding: 20px;
-    margin: 10px;
-    /* margin-left: -15%; */
+#sect {
+    margin-top: 10px;
+    width: 58%;
+    background-color: lightgray;   
+    float: left; /*This is for putting aside next to this section*/
+    text-align: center;
+    height: 350px; /* must match with aside{height:} */
 }
 
-h1 {
-    background-color: lightgray;
-    padding: 10px;
-    /* width: 93%; */
-    color: #777;
-    /* margin-top: 5%; */
-    margin-bottom: 2%;
-    /* height: 20%; */
-    font-size: 16px;
+article {
+    background-color: #777;
+    padding: 20px;
+    margin: 10px;
 }
 
 #art {
@@ -53,38 +41,29 @@ h1 {
     color: #ebebeb;
 }
 
+h1 {
+    background-color: lightgray;
+    padding: 10px;
+    color: #777;
+    margin-bottom: 2%;
+    font-size: 16px;
+}
+
 p {
     background-color: lightgray;
     padding: 10px;
-    /* margin-top: 5%; */
-    /* width: 93%; */
     color: #777;
     margin-bottom: 10%;
-    /* height: 20%; */
-}
-
-#sect {
-    margin-top: 10px;
-    /* padding: 30px; */
-    width: 58%;
-    background-color: lightgray;
-    /* margin-left: 7%; */
-    
-    float: left; /*This is for putting aside next to this section*/
-    text-align: center;
-    height: 400px; /* must match with #side{height:} */
 }
 
 aside {
     width: 40%;
-    /* padding: 30px; */
-    /* margin-right: 7%; */
     background-color: lightgray;
     margin-top: 10px;
     text-align: center;
     margin-bottom:  10px;
     float: right;
-    height: 400px; /* must match with #sect{height:} */
+    height: 350px; /* must match with #sect{height:} */
 }
 
 .clearfix {
@@ -92,11 +71,8 @@ aside {
 }
 
 footer {
-    /* width: 80%; */
-    /* height: 75%; */
     text-align: center;
     margin-top: 10px;
-    /* margin-left: 7%; */
     padding: 10px 30px;
     background-color: lightgray;
     margin-bottom: 30px;
