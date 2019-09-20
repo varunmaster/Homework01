@@ -7,30 +7,6 @@ body {
     height: 960px;
 }
 
-/* #name {
-    color: #ffffff;
-    width: 1000px;
-    height: 9%;
-    float: left;
-    margin-left: 25%;
-}
-
-#name1{
-    background-color: #4aaaa5;
-    width: 15%;
-    float: left;
-    text-align: center;
-    margin-top: 10px;
-}
-
-#other-pages {
-    text-align: right;
-    width: 50%;
-    padding-left: 65%;
-    padding-top: 15px;
-    font-size: 20px;
-} */
-
 #top-banner {
     height: 100px;
     border: 1px solid lightgray;
@@ -105,14 +81,6 @@ p {
     margin: 15px;
 }
 
-/* #header{
-    clear: both;
-    width: 100%;
-    border-color: #cccccc;
-    background-color: #ffffff;
-    border: 1px;
-} */
-
 .clearfix {
     clear: both;
 }
@@ -129,4 +97,24 @@ p {
     background-color: #666666;
     color: white;
     height: 70px;
+}
+
+label {
+    margin: 0px 20px;
+}
+
+#email, textarea {
+    width: 95%;
+    margin: 0px 20px;
+    border: 1px solid lightgray;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 15px 32px;
+    border: 0px hidden;
+    text-align: center;
+    cursor: pointer;
+    margin: 74px 32px;
 }
