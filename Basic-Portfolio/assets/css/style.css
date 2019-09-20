@@ -39,7 +39,7 @@ body {
     margin: auto;
 }
 
-#name {
+h1 {
     background-color: #4aaaa5;
     text-align: center;
     width: 150px;
@@ -54,7 +54,7 @@ body {
 #other-pages {
     font-size: 20px;
     float: right;
-    margin-right: 460px;
+    /* margin-left: 460px; */
     padding-top: 25px;
 }
 
