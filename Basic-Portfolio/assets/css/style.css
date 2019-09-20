@@ -32,9 +32,11 @@ body {
 } */
 
 #top-banner {
-    background-color: #ffffff;
     height: 100px;
     border: 1px solid lightgray;
+    /* clear: both; */
+    background-color: #ffffff;
+    margin: auto;
 }
 
 #name {
